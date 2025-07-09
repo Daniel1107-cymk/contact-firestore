@@ -1,11 +1,14 @@
 import {
+  addDoc,
   collection,
+  deleteDoc,
   doc,
   getDoc,
   getDocs,
   orderBy,
   query,
   setDoc,
+  updateDoc,
 } from "@react-native-firebase/firestore";
 import { Db } from "./firebase";
 
